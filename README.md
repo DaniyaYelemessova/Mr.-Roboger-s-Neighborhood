@@ -1,3 +1,10 @@
+## <div align="center">Mr. Roboger's Neighborhood Number Replacement</div>
+
+#### <div align="center">💻 _Learning project for practicing Arrays and Looping in JavaScript  11/07/2023_ </div>
+
+**_<p align="right">By Daniya Yelemessova_**</p>
+
+
 ```
 Describe: beepBoop()
 
