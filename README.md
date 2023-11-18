@@ -89,4 +89,26 @@ Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8
 
 ```
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
+
+- [GitHub page link](https://github.com/DaniyaYelemessova/Mr.-Roboger-s-Neighborhood.git)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## <div align="center"> _Known Issues_
+
+-no known issues at this time.
+
+## <div align="center"> 📬 _Contact Information_
+
+#### For any questions _[LinkedIn](www.linkedin.com/in/daniya-collings)_
+
+## <div align="center"> 📘 _License and copyright:_
+
+> **_© Daniya Yelemessova, 2023_**  
+> ⚖️ _[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)_
+
+
 
