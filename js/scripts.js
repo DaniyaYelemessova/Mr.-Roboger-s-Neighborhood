@@ -15,3 +15,36 @@ function beepBoop(number){
   return newResult
 }
 
+// UI LOGIC
+document.addEventListener('DOMContentLoaded', function(){
+  const form = document.getElementById("form");
+  form.addEventListener("submit", numberReplacer)
+})
+
+function resetForm(){
+  const form = document.getElementById("form");
+  form.reset();
+}
+
+function classHidden(){
+  document.querySelector("#error").setAttribute("class", "hidden");
+}
+
+function numberChecker(number){
+  if(number < 0){
+    document.querySelector("#error").removeAttribute("class");
+    return
+  }
+}
+
+
+function numberReplacer(e){
+  e.preventDefault();
+  classHidden();
+  const input = document.getElementById("inputNumber").value;
+  const numberCheck = numberChecker(input);
+  
+
+  resetForm();
+}
+
