@@ -47,6 +47,10 @@ To get started, you'll need to clone this repository to your local machine. Open
 3. Open the project using **code .**
 </details>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+## <div align="center"> ⌨️ _Tests_
 
 ```
 Describe: beepBoop()
