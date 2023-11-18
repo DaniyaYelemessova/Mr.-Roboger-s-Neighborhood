@@ -88,6 +88,14 @@ Code: beepBoop(8)
 Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8]
 
 ```
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## <div align="center"> 🌟 _Usage_
+
+1. Access the Application: Clone the Mr. Roboger's Neighborhood repository to your local machine and  open the _index.html_ file locally.
+2. Run the Application: double-click on the index.html file or use a tool like Live Server if you are using Visual Studio Code.
+3. Enter a Number: Once the application is running, enter a positive integer into the provided input field and submit the form. 
+4. Get result with transformed numbers!
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
