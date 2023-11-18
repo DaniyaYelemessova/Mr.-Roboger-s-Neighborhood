@@ -4,6 +4,10 @@
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 
+<p align="center">
+  <img src="images/js.png" alt="js" width="30"/>
+</p>
+
 
 ```
 Describe: beepBoop()
