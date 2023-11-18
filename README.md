@@ -10,6 +10,43 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+## <div align="center"> 🛠️ _Technologies used:_
+
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- GIT
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### <div align="center"> 🤔 _Description:_
+
+The "Mr. Roboger's Neighborhood number replacement" is a web application that takes a user-inputted number and generates a list of values from 0 to the provided number, each with unique substitutions:
+
+* Numbers containing the digit 1 will have all their digits replaced with "Beep!"
+(e.g., 109, 11, or 1 become "Beep!")
+
+* Numbers containing the digit 2 will have all their digits replaced with "Boop!"
+(e.g., 2, 24, or 2099 become "Boop!")
+
+* Numbers containing the digit 3 will have all their digits replaced with "Won't you be my neighbor?"
+(e.g., 39, 3, or 8763 become "Won't you be my neighbor?")
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## <div align="center"> 🚥 _Installation_
+
+<details>
+To set up this project locally for development or testing purposes, follow these steps:
+
+To get started, you'll need to clone this repository to your local machine. Open your terminal or command prompt and use the following command to do so:
+1. git clone https://github.com/DaniyaYelemessova/Mr.-Roboger-s-Neighborhood.git
+2. Navigate to the Project Directory, using **cd**
+3. Open the project using **code .**
+</details>
+
 
 ```
 Describe: beepBoop()
@@ -47,3 +84,5 @@ Code: beepBoop(8)
 Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8]
 
 ```
+
+
