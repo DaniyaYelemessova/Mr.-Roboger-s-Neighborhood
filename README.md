@@ -8,6 +8,8 @@
   <img src="images/js.png" alt="js" width="30"/>
 </p>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 
 ```
 Describe: beepBoop()
