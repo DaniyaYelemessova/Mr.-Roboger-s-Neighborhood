@@ -15,4 +15,4 @@ function beepBoop(number){
   return newResult
 }
 
-console.log(beepBoop("13"));
+console.log(beepBoop("123"));
