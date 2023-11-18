@@ -27,3 +27,7 @@ Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8
 Test: "test for Hierarchy of Substitutions. The number 123 should be replaced with "Won't you be my neighbor?"."
 Code: beepBoop(123)
 Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'Beep', 'Beep', 'Boop!', "Won't you be my neighbor?".........123: "Won't you be my neighbor?"]
+
+Test: "test for number 8"
+Code: beepBoop(8)
+Expected Output: [0, 'Beep', 'Boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8]
