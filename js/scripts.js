@@ -6,6 +6,8 @@ function beepBoop(number){
       newResult.push("Beep")
     }else if(stringNumber.includes("2")){
       newResult.push("Boop!")
+    }else if(stringNumber.includes("3")){
+      newResult.push("Won't you be my neighbor?")
     }else{
       newResult.push(i)
     }
@@ -13,4 +15,4 @@ function beepBoop(number){
   return newResult
 }
 
-console.log(beepBoop("2"))
+console.log(beepBoop("3"))
