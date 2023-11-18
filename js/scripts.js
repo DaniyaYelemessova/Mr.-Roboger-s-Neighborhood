@@ -13,29 +13,29 @@ function beepBoop(number){
     }
   }
   return newResult
-}
+};
 
 // UI LOGIC
 document.addEventListener('DOMContentLoaded', function(){
   const form = document.getElementById("form");
-  form.addEventListener("submit", numberReplacer)
-})
+  form.addEventListener("submit", numberReplacer);
+});
 
 function resetForm(){
   const form = document.getElementById("form");
   form.reset();
-}
+};
 
 function classHidden(){
   document.querySelector("#error").setAttribute("class", "hidden");
-}
+};
 
 function numberChecker(number){
   if(number < 0){
     document.querySelector("#error").removeAttribute("class");
     return
   }
-}
+};
 
 
 function numberReplacer(e){
@@ -43,8 +43,15 @@ function numberReplacer(e){
   classHidden();
   const input = document.getElementById("inputNumber").value;
   const numberCheck = numberChecker(input);
+  const beepBooper = beepBoop(input);
+  const output = document.getElementById("output");
+  output.textContent = "";
+  let p = document.createElement("p");
+  p.className = "p"
+  p.textContent = beepBooper.join(" , ");
+  output.appendChild(p);
   
 
   resetForm();
-}
+};
 
