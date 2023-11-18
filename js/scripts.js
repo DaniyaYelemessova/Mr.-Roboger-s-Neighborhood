@@ -4,6 +4,8 @@ function beepBoop(number){
     let stringNumber = i.toString();
     if(stringNumber.includes("1")){
       newResult.push("Beep")
+    }else if(stringNumber.includes("2")){
+      newResult.push("Boop!")
     }else{
       newResult.push(i)
     }
@@ -11,4 +13,4 @@ function beepBoop(number){
   return newResult
 }
 
-console.log(beepBoop("1"))
+console.log(beepBoop("2"))
