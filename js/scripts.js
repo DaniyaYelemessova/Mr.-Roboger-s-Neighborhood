@@ -16,6 +16,7 @@ function beepBoop(name ,number){
   return newResult
 };
 
+
 // UI LOGIC
 document.addEventListener('DOMContentLoaded', function(){
   const form = document.getElementById("form");
@@ -29,6 +30,7 @@ function resetForm(){
 
 function classHidden(){
   document.querySelector("#error").setAttribute("class", "hidden");
+  
 };
 
 function numberChecker(number){
@@ -37,6 +39,9 @@ function numberChecker(number){
     return
   }
 };
+
+
+
 
 
 function numberReplacer(e){
@@ -52,8 +57,6 @@ function numberReplacer(e){
   p.className = "p"
   p.textContent = beepBooper.join(" , ");
   output.appendChild(p);
-  
-
   resetForm();
 };
 
