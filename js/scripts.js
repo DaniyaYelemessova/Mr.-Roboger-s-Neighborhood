@@ -36,8 +36,9 @@ function classHidden() {
 function numberChecker(number) {
   if (number < 0) {
     document.querySelector("#error").removeAttribute("class");
-    return;
+    return true;
   }
+  return false
 }
 
 function numberReplacer(e) {
@@ -62,26 +63,17 @@ function numberReplacer(e) {
 
 // UI LOGIC #2
 
+function changeBackgroundColor(color){
+  const box = document.getElementById("box");
+  box.style.backgroundColor = color;
+}
+
 const blue = document.getElementById("blue");
-blue.addEventListener("click", changeToBlue);
+blue.addEventListener("click", () => changeBackgroundColor("#001540"));
 
 const grey = document.getElementById("grey");
-grey.addEventListener("click", changeToGrey);
+grey.addEventListener("click", () => changeBackgroundColor("#232023"));
 
 const green = document.getElementById("green");
-green.addEventListener("click", changeToGreen);
+green.addEventListener("click", () => changeBackgroundColor("#003e3a"));
 
-function changeToBlue() {
-  const box = document.getElementById("box");
-  box.style.backgroundColor = "#001540";
-}
-
-function changeToGrey() {
-  const box = document.getElementById("box");
-  box.style.backgroundColor = "#232023";
-}
-
-function changeToGreen() {
-  const box = document.getElementById("box");
-  box.style.backgroundColor = "#003e3a";
-}
