@@ -29,6 +29,7 @@ function resetForm() {
 
 function classHidden() {
   document.querySelector("#error").setAttribute("class", "hidden");
+  document.querySelector("#textInput").setAttribute("class", "hidden");
 }
 
 function numberChecker(number) {
@@ -44,6 +45,10 @@ function numberReplacer(e) {
   const input = document.getElementById("inputNumber").value;
   const numberCheck = numberChecker(input);
   const inputName = document.getElementById("inputName").value;
+  if(Number(inputName)){
+    document.querySelector("#textInput").removeAttribute("class");
+    return
+  }
   const beepBooper = beepBoop(inputName, input);
   const output = document.getElementById("output");
   output.textContent = "";

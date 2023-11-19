@@ -97,6 +97,10 @@ label{
   font-size: 30px;
 }
 
+#textInput{
+  color: red;
+}
+
 .p{
   padding: 20px;
   color: white;
