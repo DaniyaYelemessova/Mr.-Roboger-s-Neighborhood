@@ -1,9 +1,10 @@
-function beepBoop(number){
+// Business logic
+function beepBoop(name ,number){
   let newResult = [];
   for(let i = 0; i <= number; i++){
     let stringNumber = i.toString();
     if(stringNumber.includes("3")){
-      newResult.push("Won't you be my neighbor?")
+      newResult.push("Won't you be my neighbor, " + name + "?")
     }else if(stringNumber.includes("2")){
       newResult.push("Boop!")
     }else if(stringNumber.includes("1")){
@@ -43,7 +44,8 @@ function numberReplacer(e){
   classHidden();
   const input = document.getElementById("inputNumber").value;
   const numberCheck = numberChecker(input);
-  const beepBooper = beepBoop(input);
+  const inputName = document.getElementById("inputName").value;
+  const beepBooper = beepBoop(inputName, input);
   const output = document.getElementById("output");
   output.textContent = "";
   let p = document.createElement("p");
