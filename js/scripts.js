@@ -16,6 +16,7 @@ function beepBoop(name, number) {
   return newResult;
 }
 
+
 // UI LOGIC
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("form");
